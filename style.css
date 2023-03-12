@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+body {
+    font-family: 'Hanken Grotesk';
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+
+}   
+
+
+.container {
+   position: relative;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%, -50%);
+   height: 55vh;
+   width: 700px;
+}
+.left {
+    position: relative;
+    width: 350px;
+    height: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    text-align: center;
+    float: left;
+
+}
+
+
+
+.title-left {
+    margin-top: 10%;
+    color: hsl(241, 100%, 89%);
+    font-size: 22px;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 56, 56);
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.circle h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-weight: 700;
+    color: hsl(221, 100%, 96%);
+    font-size: 70px;
+}
+
+.over {
+    color: hsl(241, 100%, 89%);
+    padding-top: -20px;
+}
+
+.container h2 {
+    color: hsl(221, 100%, 96%);
+    font-size: 30px;
+}
+
+.container p { 
+    color: hsl(241, 100%, 89%);
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-bottom: 20px;
+}
+
+
+.right {
+    width: 100%;
+    height: 100%;  
+    border-radius: 25px;
+    vertical-align: middle;
+    font-weight: 700;
+    box-shadow: 1px 1px  25px #d0ddf6;
+    
+}
+.title { 
+    padding-left: 55%;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    padding-top: 40px;
+    
+}
+
+.one, .two, .three, .four {
+    border-radius: 10px;
+}
+
+.one {
+    margin-left: 55%;
+    height: 50px;
+    width: 40%;
+    background-color: hsl(0, 100%, 67%, .05);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.two {
+    margin-left: 55%;
+    height: 50px;
+    width: 40%;
+    background-color: hsl(39, 100%, 56%, .05);
+    margin-top: 20px
+}
+
+.three {
+    margin-left: 55%;
+    height: 50px;
+    width: 40%;
+    background-color: hsl(166, 100%, 37%, .05);
+    margin-top: 20px
+}
+
+.four {
+    margin-left: 55%;
+    height: 50px;
+    width: 40%;
+    background-color: hsl(234, 85%, 45%, .05);
+    margin-top: 20px
+}
+
+.reaction, .memory, .verbal, .visual  {
+    float: left;
+    margin: 15px  10px;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.grade {
+    float: right;
+    margin: 15px 10px;
+    color: gray;
+   
+}
+
+.icon {
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.grade b {
+    color: hsl(224, 30%, 27%);
+}
+
+.btn {
+    margin-top: 40px;
+    margin-left: 55%;
+    padding-top: 18px;
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+    background-color:#303b59;
+    text-align: center;
+    
+
+}
+
+.btn b { 
+    color: hsl(221, 100%, 96%);
+}
+
+
